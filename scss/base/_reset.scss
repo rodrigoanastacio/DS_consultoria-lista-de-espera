@@ -5,13 +5,12 @@
 }
 
 :root {
-  --gray: #f5efef;
-  --gray-100: #e2e2dd;
-  --gray-200: #e5e5e5;
-  --gray-300: #c4c4c4;
-  --gray-400: #686868;
-  --gray-700: #3c3b3b;
+  --black-900: #000000;
+  --black-800: #121214;
   --black: #030303;
+
+  --off-white: #eeede8;
+
   --nude: rgb(235, 171, 148);
   --brown: rgb(125, 77, 56);
   --yellow-200: #f0eb9d;
@@ -40,13 +39,12 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-}
-
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
 }
 

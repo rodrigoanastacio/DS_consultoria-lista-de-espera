@@ -25,16 +25,77 @@
 
     <link rel="stylesheet" href="./scss/style.scss" />
 
-    <title>Start | Initial project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Intense - Consultoria para Negócios Digitais</title>
   </head>
   <body>
     <!-- INSERIR AQUI A TAG GTM (noscript) -->
 
-    <main>
-      <section class="c-container">
-        <h1>Start project</h1>
-      </section>
-    </main>
+    <section class="c-hero">
+      <div class="c-container">
+        <img
+          class="c-hero__logo"
+          src="./images/intense-consultoria-logo.svg"
+          alt="Logo Intense - Consultoria para Negócios Digitais"
+          width="230"
+        />
+
+        <div class="c-hero__wrapper">
+          <div class="c-headline">
+            <h1 class="c-headline__title">
+              Transforme seu negócio em uma marca FORTE e não seja apenas um
+              perfil do Instagram!
+            </h1>
+
+            <p class="c-headline__subtitle">
+              A agenda da consultoria <strong>INTENSE</strong> está fechada
+              momentaneamente.
+            </p>
+            <p class="c-headline__subtitle">
+              A consultoria é um serviço totalmente personalizado e por isso
+              terá <strong>vagas limitadas.</strong>
+            </p>
+            <p class="c-headline__subtitle">
+              Entre para minha lista de espera e seja avisada sobre a reabertura
+              de novas vagas.
+            </p>
+
+            <form class="c-form">
+              <div class="c-form__group">
+                <input
+                  class="c-form__input"
+                  type="email"
+                  data-js="inputEmail"
+                  required
+                />
+                <label for="inputEmail" class="c-form__label"
+                  >Informe seu melhor e-mail</label
+                >
+              </div>
+
+              <div class="c-form__group">
+                <button class="c-button c-button--gold">
+                  Quero entrar na lista de espera
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="c-hero__image">
+            <img
+              src="./images/dayane-silva-consultoria.svg"
+              alt="Imagem ilustrativa da consultora Dayane Silva"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script type="module" src="./main.js"></script>
   </body>

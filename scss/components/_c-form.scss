@@ -1,0 +1,45 @@
+.c-form {
+  &__group {
+    position: relative;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    & + .c-form__group {
+      margin-bottom: 0;
+    }
+  }
+
+  & .c-form__input {
+    width: 100%;
+    padding: 20px 20px 5px;
+    background-color: #ffffff;
+    border: 1px solid #c5c5c5;
+    border-radius: 2px;
+    height: 56px;
+    font-size: 16px;
+
+    & ~ label {
+      position: absolute;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #9f9fa1;
+      margin-left: 21px;
+      transition: 0.4s;
+      cursor: text;
+    }
+
+    &:focus ~ label {
+      transform: translateY(-10px);
+      font-size: 12px;
+    }
+
+    &:valid ~ label {
+      transform: translateY(-10px);
+      font-size: 12px;
+    }
+  }
+}

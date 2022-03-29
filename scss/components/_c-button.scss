@@ -1,0 +1,18 @@
+.c-button {
+  padding: 16px 20px;
+  width: 100%;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+
+  &:focus {
+    // outline: 2px solid #cfb53b;
+  }
+
+  &--gold {
+    background: linear-gradient(180deg, #fad25a 0%, #cfb53b 100%);
+  }
+}

@@ -1,0 +1,45 @@
+.c-hero {
+  background: linear-gradient(
+    180deg,
+    var(--black-900) 0%,
+    var(--black-800) 100%
+  );
+  min-height: 100vh;
+  padding: 25px 0 0;
+
+  &__logo {
+    margin-bottom: 50px;
+  }
+
+  &__wrapper {
+    display: flex;
+    height: 100%;
+
+    & .c-headline {
+      &__title {
+        margin-bottom: 24px;
+      }
+
+      &__subtitle {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+
+    & > img {
+      width: 100%;
+      max-width: 430px;
+    }
+  }
+
+  & > .c-container {
+    flex-direction: column;
+    height: 100vh;
+  }
+}
