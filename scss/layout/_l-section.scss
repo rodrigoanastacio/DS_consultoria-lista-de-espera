@@ -1,6 +1,6 @@
 .l-section {
   position: relative;
-  padding: 60px 0;
+  padding: 30px 0 30px;
 
   & svg.ellipse--1 {
     position: absolute;
@@ -13,6 +13,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
+    max-width: 350px;
   }
 
   & .c-form__error {
