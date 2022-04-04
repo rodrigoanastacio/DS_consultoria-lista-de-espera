@@ -1,3 +1,3 @@
-import { hello } from "./js/components/Hello";
+import {} from "./js/utils/Validation";
 
-hello();
+// validation();

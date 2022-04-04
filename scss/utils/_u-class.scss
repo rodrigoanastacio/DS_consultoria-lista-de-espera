@@ -5,3 +5,14 @@
     margin-left: 15px;
   }
 }
+
+.u-error {
+  display: block;
+  color: $error !important;
+  // margin-bottom: 25px;
+}
+
+.u-hasError {
+  border: 2px solid #f31414 !important;
+  outline: none;
+}
