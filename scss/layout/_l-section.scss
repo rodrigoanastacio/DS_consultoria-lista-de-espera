@@ -1,6 +1,66 @@
 .l-section {
   position: relative;
-  padding: 30px 0 30px;
+  padding: 30px 0 0;
+
+  background: linear-gradient(
+    180deg,
+    var(--black-900) 0%,
+    var(--black-800) 100%
+  );
+
+  min-height: 100vh;
+
+  & .c-container {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  &__wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column-reverse;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      height: calc(100vh - 108px);
+      gap: 20px;
+    }
+  }
+
+  &__image {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+
+    img {
+      width: 100%;
+      max-width: 336px;
+      // position: absolute;
+      // bottom: -30px;
+    }
+  }
+
+  &__headline {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--off-white);
+  }
+
+  &__title {
+    font-size: 2.875rem;
+    line-height: 2.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
 
   & svg.ellipse--1 {
     position: absolute;
